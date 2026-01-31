@@ -93,7 +93,7 @@ BEGIN
             VALUE "FileDescription", "picasso_elina_online_worker" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "picasso_elina_online_worker" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "picasso_elina_online_worker.exe" "\0"
             VALUE "ProductName", "picasso_elina_online_worker" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

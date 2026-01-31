@@ -31,7 +31,7 @@ class WMDayEnd extends WMApp {
       Expanded(child: SingleChildScrollView(
           child: BlocBuilder<AppBloc, AppState>(builder: (builder, state) {
         if (state is AppStateDayEnd) {
-          return  Container(
+          return  SizedBox(
             width: MediaQuery.sizeOf(prefs.context()).width - 10,
               child:  SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
