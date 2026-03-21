@@ -281,6 +281,9 @@ extension DashboardElineRep on WMDashboard {
   String _totalQty(dynamic data) {
     var t = 0.0;
     for (final e in data ?? []) {
+      if (e['f_groupname'] == 'Շարֆ 1' || e['f_groupname'] == 'Բանտ 104') {
+        continue;
+      }
       t += e['f_qty'];
     }
     return prefs.number(t);
